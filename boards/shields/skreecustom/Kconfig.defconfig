@@ -1,7 +1,7 @@
 if SHIELD_SKREECUSTOM_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "Skree Custom"
+    default "Skree"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -14,14 +14,14 @@ endif
 if SHIELD_SKREECUSTOM_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Skree Custom Left"
+    default "Skree L"
 
 endif
 
 if SHIELD_SKREECUSTOM_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "Skree Custom Right"
+    default "Skree R"
 
 endif
 
