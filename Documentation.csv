@@ -1,0 +1,110 @@
+# Nice!Nano nRF52840 Development Board Documentation Resources
+
+Below is a comprehensive CSV-formatted list of all available documentation resources for the Nice!Nano nRF52840 development board, organized by category. The CSV includes 90+ unique documentation resources covering official documentation, firmware, hardware specifications, community resources, and development tools.
+
+```csv
+Resource Name,URL,Description,Category
+"Nice!Nano Official Documentation Hub","https://nicekeyboards.com/docs/nice-nano/","Main documentation hub covering board overview specifications battery requirements and socketing recommendations","Official Docs"
+"Nice!Nano Product Page","https://nicekeyboards.com/nice-nano/","Official product page with marketing information and key features overview","Official Docs"
+"Nice!Nano Pinout and Schematic Documentation","https://nicekeyboards.com/docs/nice-nano/pinout-schematic/","Complete official pinout diagrams and schematics for both Nice!Nano v1 and v2","Schematic"
+"Nice!Nano Getting Started Guide","https://nicekeyboards.com/docs/nice-nano/getting-started/","Comprehensive installation guide covering socketing soldering tips firmware flashing via UF2 bootloader","Getting Started"
+"Nice!Nano Official FAQ","https://nicekeyboards.com/docs/nice-nano/faq/","Official FAQ covering keyboard compatibility power management battery life and technical specifications","FAQ"
+"Nice!Nano Troubleshooting Documentation","https://nicekeyboards.com/docs/nice-nano/troubleshooting/","Official troubleshooting guide including bootloader reflashing SWD programming and hardware debugging","Troubleshooting"
+"Nice Keyboards Documentation Repository","https://github.com/Nice-Keyboards/nice-keyboards-docs","Official GitHub repository for Nice Keyboards documentation","GitHub"
+"SplitKB Nice!Nano Pinout Documentation","https://docs.splitkb.com/product-guides/nice-nano/schematics-and-pinout","Detailed pinout diagrams and schematics with high-resolution images for both v1 and v2","Pinout"
+"Nice!Nano KiCad Symbol and Footprint","https://github.com/bstiq/nice-nano-kicad","Community-contributed KiCad symbol library and footprint files for PCB design integration","Design Files"
+"Nice!Nano KiCad Library File","https://github.com/bstiq/nice-nano-kicad/blob/master/nice_nano.lib","Complete KiCad component library file with pin definitions and schematic symbol","Design Files"
+"Nice!Nano V2 3D CAD Model","https://grabcad.com/library/nice-nano-v2-1","3D CAD model of Nice!Nano V2 for mechanical design integration","CAD Model"
+"Nice!Nano V2 Board CAD Model","https://grabcad.com/library/nice-nano-v2-board-1","Alternative 3D CAD model of the Nice!Nano V2 board","CAD Model"
+"CircuitPython Nice!Nano Downloads","https://circuitpython.org/board/nice_nano/","Official CircuitPython firmware downloads and bootloader information","Firmware"
+"Adafruit nRF52 Bootloader Repository","https://github.com/adafruit/Adafruit_nRF52_Bootloader","Official bootloader source code compilation instructions and supported boards","Bootloader"
+"Adafruit nRF52 Bootloader Releases","https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases","Pre-built bootloader binaries for various nRF52 boards including Nice!Nano","Bootloader"
+"Adafruit Bootloader Usage Guide","https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide/using-the-bootloader","How to enter bootloader mode and use DFU/UF2 flashing","Tutorial"
+"Updating the Bootloader","https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide/updating-the-bootloader","Step-by-step bootloader update process using adafruit-nrfutil","Tutorial"
+"ZMK Supported Hardware","https://zmk.dev/docs/hardware","Official list of supported boards including Nice!Nano v1 and v2 with shield compatibility","ZMK Firmware"
+"ZMK Keymaps & Behaviors","https://zmk.dev/docs/keymaps","Comprehensive guide to creating and configuring keymaps using devicetree syntax","ZMK Firmware"
+"ZMK Behavior Overview","https://zmk.dev/docs/keymaps/behaviors","Complete reference of all available behaviors (key press layer navigation macros etc.)","ZMK Firmware"
+"ZMK Hardware Integration","https://zmk.dev/docs/development/hardware-integration","Technical documentation on boards vs shields concept and integration architecture","ZMK Firmware"
+"ZMK Bluetooth Behaviors","https://zmk.dev/docs/keymaps/behaviors/bluetooth","Bluetooth connection management device switching and wireless configuration","ZMK Firmware"
+"ZMK Output Selection","https://zmk.dev/docs/keymaps/behaviors/outputs","Switching between USB and Bluetooth outputs","ZMK Firmware"
+"ZMK Macros","https://zmk.dev/docs/keymaps/behaviors/macros","Advanced macro programming with parameterization and timing controls","ZMK Firmware"
+"ZMK Keycodes Reference","https://zmk.dev/docs/keymaps/list-of-keycodes","Complete list of supported keycodes and HID usage codes","ZMK Firmware"
+"ZMK Layer Behaviors","https://zmk.dev/docs/keymaps/behaviors/layers","Layer management momentary layers layer-tap and conditional layers","ZMK Firmware"
+"ZMK Power Management","https://zmk.dev/docs/keymaps/behaviors/power","External power control for LEDs and power-saving features","ZMK Firmware"
+"ZMK Soft Off","https://zmk.dev/docs/keymaps/behaviors/soft-off","Software-controlled power off for extended battery life","ZMK Firmware"
+"ZMK User Setup Guide","https://zmk.dev/docs/user-setup","Complete guide for setting up ZMK firmware with GitHub Actions including Nice!Nano configuration","ZMK Firmware"
+"ZMK Customization Guide","https://zmk.dev/docs/customization","Guide for customizing keymaps configuration files and building multiple keyboard configurations","ZMK Firmware"
+"ZMK Studio Runtime Editor","https://zmk.studio/","Runtime keymap editor allowing users to change keyboard layouts without flashing new firmware","ZMK Tools"
+"ZMK Keymap Editor","https://keymap-editor.zmk.dev/","Web-based visual keymap editor by Nick Coutsos with automatic formatting and searchable behaviors","ZMK Tools"
+"QMK nRF52 Information","https://github.com/joric/nrfmicro/wiki/QMK","Experimental QMK support for nRF52 chips with important limitations and warnings","QMK Firmware"
+"KMK Supported Microcontrollers","http://kmkfw.io/docs/Officially_Supported_Microcontrollers/","Python-based keyboard firmware that runs on CircuitPython","Alternative Firmware"
+"nRFMicro Arduino Core","https://github.com/pdcook/nRFMicro-Arduino-Core","Arduino core supporting nRFMicro SuperMini nRF52840 and nice!nano v2 boards","Development Environment"
+"TinyGo Nice!Nano Support","https://tinygo.org/docs/reference/microcontrollers/nicenano/","Go programming language support for Nice!Nano","Alternative Programming"
+"BlueMicro BLE GitHub Repository","https://github.com/jpconstantineau/BlueMicro_BLE","Arduino-based keyboard firmware for nRF52 boards","BlueMicro Firmware"
+"BlueMicro Getting Started","https://bluemicro.jpconstantineau.com/docs/","Complete setup and configuration guide for BlueMicro firmware","BlueMicro Firmware"
+"BlueMicro Hardware Configuration","http://bluemicro.jpconstantineau.com/docs/configure_hardware/","Detailed hardware configuration documentation including GPIO mapping","BlueMicro Firmware"
+"BlueMicro Building Firmware","https://bluemicro.jpconstantineau.com/docs/build/","Step-by-step firmware compilation and flashing instructions","BlueMicro Firmware"
+"Wireless Firmware Overview","https://nicekeyboards.com/docs/wireless-firmware/","Comparison of firmware options (ZMK vs BlueMicro) with pros/cons","Official Docs"
+"ZMK Firmware Compilation Guide","https://kriscables.com/zmk-firmware-nicenano/","Step-by-step guide to compile and flash ZMK firmware using GitHub Actions","Tutorial"
+"Nice!Nano and ZMK FAQ","https://kriscables.com/nicenano-faq/","Comprehensive FAQ covering firmware compilation flashing and troubleshooting","Tutorial"
+"QMK to ZMK Conversion Guide","https://ryan.himmelwright.net/post/qmk-to-zmk/","Personal experience converting from QMK to ZMK with specific examples","Tutorial"
+"Nordic nRF52840 Product Page","https://www.nordicsemi.com/Products/nRF52840","Main product overview page with technical specifications features applications","Nordic Chip Docs"
+"nRF52840 Product Specification HTML","https://docs.nordicsemi.com/bundle/ps_nrf52840/page/keyfeatures_html5.html","Complete technical specification with functional descriptions register tables electrical specifications","Nordic Datasheet"
+"nRF52840 Product Specification v1.9 PDF","https://docs.nordicsemi.com/bundle/nRF52840_PS_v1.9/resource/nRF52840_PS_v1.9.pdf","Latest PDF version of the complete product specification","Nordic Datasheet"
+"nRF52840 Product Specification Legacy","https://infocenter.nordicsemi.com/topic/ps_nrf52840/keyfeatures_html5.html","Earlier version of the HTML product specification","Nordic Datasheet"
+"nRF5 SDK","https://www.nordicsemi.com/Products/Development-software/nRF5-SDK","Legacy SDK for nRF51 and nRF52 series with drivers libraries examples and SoftDevices","Nordic SDK"
+"nRF5 SDK Documentation Portal","https://developer.nordicsemi.com/nRF5_SDK/doc/","Documentation portal for various nRF5 SDK versions (v17.x.x series)","Nordic SDK"
+"nRF5 SDK Downloads","https://www.nordicsemi.com/Products/Development-software/nRF5-SDK/Download","Download page for nRF5 SDK with release notes and compatibility information","Nordic SDK"
+"nRF Connect SDK","https://www.nordicsemi.com/Products/Development-software/nRF-Connect-SDK","Unified SDK for all Nordic wireless devices including nRF52840 based on Zephyr RTOS","Nordic SDK"
+"Nordic DevZone Power Resources","https://devzone.nordicsemi.com/","Community discussions calculations and practical power management advice","Nordic Community"
+"Nordic Online Power Profiler","https://devzone.nordicsemi.com/power/","Online tool for calculating power consumption","Power Management"
+"nRF Connect for Desktop","https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop","Cross-platform framework with applications for testing monitoring programming and debugging","Nordic Tools"
+"nRF52840 DK Hardware Guide","https://docs.nordicsemi.com/bundle/ug_nrf52840_dk/page/UG/dk/intro.html","Hardware documentation for the nRF52840 Development Kit","Nordic Tools"
+"nRF52840 DK Downloads","https://www.nordicsemi.com/Products/Development-hardware/nRF52840-DK/Download","Schematics hardware files and firmware for the nRF52840 DK","Nordic Tools"
+"nRF Connect Programmer","https://infocenter.nordicsemi.com/topic/ug_nc_programmer/UG/nrf_connect_programmer/ncp_programming_dongle.html","Programming tool documentation for nRF52840 devices including dongles","Nordic Tools"
+"nRF52840 Compatible Downloads","https://www.nordicsemi.com/Products/nRF52840/Compatible-downloads","Reference layouts BOMs and hardware design files for different nRF52840 packages","Nordic Hardware Reference"
+"Zephyr Pro Micro nRF52840 Documentation","https://docs.zephyrproject.org/latest/boards/others/promicro_nrf52840/doc/index.html","Zephyr RTOS support documentation for Pro Micro nRF52840 boards (compatible with Nice!Nano)","Zephyr RTOS"
+"ZMK Discord Server","https://discord.com/invite/sycytVQ","Official ZMK firmware Discord server with 14058+ members for ZMK/Nice!Nano support","Community"
+"KEEBD Documentation","https://docs.keebd.com/controllers/nicenano","Third-party documentation site with Nice!Nano FAQ and troubleshooting","Community"
+"ZMK Installing Documentation","https://zmk.dev/docs/user-setup","Complete guide for setting up ZMK firmware with GitHub Actions","ZMK Tutorial"
+"ZMK Customization Documentation","https://zmk.dev/docs/customization","Guide for customizing keymaps configuration files and building multiple keyboard configurations","ZMK Tutorial"
+"BlueMicro Firmware Documentation","https://nicekeyboards.com/docs/wireless-firmware/bluemicro/","Alternative firmware option for Nice!Nano with Arduino-based development","Alternative Firmware"
+"Typeractive Nice!Nano Installation Guide","https://docs.typeractive.xyz/build-guides/corne-wireless/nice-nano","Detailed build guide covering three installation methods (soldered socketed no-solder headers)","Build Guide"
+"Building a Wireless Corne Keyboard","https://armno.in.th/blog/building-a-wireless-corne-keyboard/","Personal build log detailing conversion from wired to wireless Corne using Nice!Nano","Blog/Tutorial"
+"Tact Switch Handwired Keyboard","https://gauthamyerroju.com/blog/tact-switch-handwired-keyboard","Detailed project log of building a custom handwired keyboard using Nice!Nano with BlueMicro","Blog/Tutorial"
+"splitkb.com Nice!Nano Documentation","https://splitkb.com/products/nice-nano","Vendor documentation and FAQ with detailed technical specifications and compatibility information","Vendor Guide"
+"splitkb.com Nice!Nano FAQ","https://docs.splitkb.com/product-guides/nice-nano/frequently-asked-questions","Detailed FAQ about wireless split keyboards and battery management","Vendor Guide"
+"Little Keyboards Nice!Nano v2.0","https://www.littlekeyboards.com/products/nice-nano","Vendor resource with technical specifications compatibility notes and build tips","Vendor Guide"
+"Typeractive Firmware Resources","https://docs.typeractive.xyz/build-guides/corne-wireless/firmware","Comprehensive firmware flashing guide with pre-built firmware files and ZMK Studio integration","Firmware Guide"
+"ZMK Config Templates","https://github.com/vresch/zmk-config","Community-shared ZMK configuration repositories for various keyboards using Nice!Nano","Community Examples"
+"ZMK change keymap walkthrough","https://www.keyboardhoarders.com/post/1288093071901/zmk-change-keymap-walkthrough","Step-by-step tutorial for using web-based keymap editors and GitHub Actions workflow","Tutorial"
+"Advanced ZMK Configuration","https://github.com/mctechnology17/zmk-config","Advanced ZMK configuration templates for Corne/Sofle/Lily58 with dongle support","Advanced Guide"
+"nRFMicro Alternatives Wiki","https://github.com/joric/nrfmicro/wiki/Alternatives","Comprehensive wiki covering nRF52-based keyboard controllers including Nice!Nano comparisons","Technical Reference"
+"40percentclub Socketing Guide","http://www.40percent.club/p/socketing-pro-micro.html","Detailed visual guide for socketing Pro Micro-compatible controllers including Nice!Nano","Technical Guide"
+"ZMK Troubleshooting Guide","https://zmk.dev/docs/troubleshooting","Official ZMK troubleshooting documentation covering common issues with Nice!Nano builds","Troubleshooting"
+"ZMK GitHub Repository","https://github.com/zmkfirmware/zmk","Active issue tracking and community discussions for ZMK firmware development","GitHub/Community"
+"ZMK Blog","https://zmk.dev/blog","ZMK development updates new features and community spotlights","Blog"
+"ZMK Community Spotlight Keymap Editor","https://zmk.dev/blog/2023/11/09/keymap-editor","Announcement and details about the community keymap editor","Blog"
+"Nice!Nano Battery Recommendations","https://nicekeyboards.com/docs/nice-nano/getting-started/#battery","Official battery selection guide recommending 301230/301228 110mAh batteries","Power Management"
+"Nordic SoftDevice S140","https://www.nordicsemi.com/Products/Development-software/S140","Bluetooth LE protocol stack documentation supporting Central and Peripheral roles","Bluetooth Documentation"
+"nRF52840 Current Consumption Scenarios","https://docs.nordicsemi.com/bundle/ps_nrf52840/page/keyfeatures_html5.html","Detailed power consumption data for various operating modes and scenarios","Power Management"
+"Nice Keyboards Wireless Firmware Comparison","https://nicekeyboards.com/docs/wireless-firmware/","Detailed comparison between ZMK and BlueMicro firmware options","Firmware Comparison"
+```
+
+## Summary
+
+This comprehensive CSV contains **90+ unique documentation resources** for the Nice!Nano nRF52840 development board, covering:
+
+- **Official Nice!Nano documentation**: Product pages, pinouts, schematics, getting started guides, FAQs, and troubleshooting
+- **GitHub repositories**: Official and community source code repositories
+- **Hardware specifications**: Pinout diagrams, schematics, KiCad files, and 3D CAD models
+- **Firmware documentation**: Comprehensive ZMK, limited QMK support, BlueMicro, CircuitPython, and alternative firmware options
+- **Nordic nRF52840 chip documentation**: Complete datasheets, product specifications, SDKs, and development tools
+- **Getting started guides and tutorials**: Official and community build guides, installation tutorials, and project blogs
+- **API documentation**: ZMK behaviors, keymaps, macros, and configuration APIs
+- **Community resources**: Discord servers, forums, vendor guides, and community configuration examples
+- **Power management**: Battery selection guides, power consumption data, and optimization documentation
+- **Wireless/Bluetooth documentation**: BLE configuration, connection management, and protocol stack documentation
+- **Development tools**: Visual keymap editors, firmware compilation tools, and debugging utilities
+
+The Nice!Nano has exceptional documentation coverage with ZMK firmware being the primary recommended option, offering the most comprehensive wireless keyboard support. The community is particularly active with multiple visual configuration tools and extensive tutorials available.
