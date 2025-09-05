@@ -1,4 +1,4 @@
-if SHIELD_SKREECUSTOM_LEFT
+if SHIELD_SKREECUSTOM_DONGLE
 
 config ZMK_KEYBOARD_NAME
     default "Skree Custom"
@@ -7,11 +7,31 @@ config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 config ZMK_STUDIO
-  default y
+    default y
 
 endif
 
-if SHIELD_SKREECUSTOM_LEFT || SHIELD_SKREECUSTOM_RIGHT
+if SHIELD_SKREECUSTOM_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Skree Custom Left"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+endif
+
+if SHIELD_SKREECUSTOM_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Skree Custom Right"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+endif
+
+if SHIELD_SKREECUSTOM_DONGLE || SHIELD_SKREECUSTOM_LEFT || SHIELD_SKREECUSTOM_RIGHT
 
 config ZMK_SPLIT
     default y
